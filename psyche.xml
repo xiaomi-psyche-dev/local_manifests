@@ -5,6 +5,8 @@
       fetch="https://github.com/Rocky7842"
       revision="lineage-23.0" />
 
+  <remote  name="psyche-gitlab"
+      fetch="git@gitlab.com:mtkpapa" />
 
     <!-- Device -->
     <project path="device/xiaomi/sm8250-common" name="android_device_xiaomi_sm8250-common" remote="psyche-dev" />
@@ -19,5 +21,6 @@
     <!-- Vendor -->
     <project path="vendor/xiaomi/sm8250-common" name="proprietary_vendor_xiaomi_sm8250-common" remote="psyche-dev" />
     <project path="vendor/xiaomi/psyche" name="proprietary_vendor_xiaomi_psyche" remote="psyche-dev" />
+    <project path="vendor/xiaomi/camera" name="vendor_xiaomi_camera" remote="psyche-gitlab" revision="aosp-16" />
 
 </manifest>
