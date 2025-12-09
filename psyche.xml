@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="psyche-dev"
+      fetch="https://github.com/Rocky7842"
+      revision="lineage-23.0" />
+
+
+    <!-- Device -->
+    <project path="device/xiaomi/sm8250-common" name="android_device_xiaomi_sm8250-common" remote="psyche-dev" />
+    <project path="device/xiaomi/psyche" name="android_device_xiaomi_psyche" remote="psyche-dev" />
+
+    <!-- Hardware -->
+    <project path="hardware/xiaomi" name="crdroidandroid/android_hardware_xiaomi" remote="github" revision="16.0" />
+
+    <!-- Kernel -->
+    <project path="kernel/xiaomi/sm8250" name="android_kernel_xiaomi_sm8250" revision="lineage-23.0-ksu" remote="psyche-dev" />
+
+    <!-- Vendor -->
+    <project path="vendor/xiaomi/sm8250-common" name="proprietary_vendor_xiaomi_sm8250-common" remote="psyche-dev" />
+    <project path="vendor/xiaomi/psyche" name="proprietary_vendor_xiaomi_psyche" remote="psyche-dev" />
+
+</manifest>
