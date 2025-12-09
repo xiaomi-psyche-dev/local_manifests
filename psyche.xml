@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="psyche-dev"
-      fetch="https://github.com/Rocky7842"
+      fetch="https://github.com/xiaomi-psyche-dev"
       revision="lineage-23.0" />
 
   <remote  name="psyche-gitlab"
