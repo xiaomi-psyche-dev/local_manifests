@@ -13,7 +13,7 @@
     <project path="device/xiaomi/psyche" name="android_device_xiaomi_psyche" remote="psyche-dev" />
 
     <!-- Hardware -->
-    <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-23.0" />
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="psyche-dev" />
 
     <!-- Kernel -->
     <project path="kernel/xiaomi/sm8250" name="android_kernel_xiaomi_sm8250" revision="lineage-23.0-ksu" remote="psyche-dev" />
