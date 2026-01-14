@@ -16,7 +16,7 @@
     <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="psyche-dev" />
 
     <!-- Kernel -->
-    <project path="kernel/xiaomi/sm8250" name="android_kernel_xiaomi_sm8250" revision="lineage-23.0-ksu" remote="psyche-dev" />
+    <project path="kernel/xiaomi/sm8250" name="android_kernel_xiaomi_sm8250" revision="lineage-23.0" remote="psyche-dev" />
 
     <!-- Vendor -->
     <project path="vendor/xiaomi/sm8250-common" name="proprietary_vendor_xiaomi_sm8250-common" remote="psyche-dev" />
